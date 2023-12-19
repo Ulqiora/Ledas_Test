@@ -16,3 +16,4 @@ public:
 
     ~Segment3D() = default;
 };
+Vector3D Intersect(const Segment3D& first,const Segment3D& second);
